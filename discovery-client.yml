@@ -1,0 +1,8 @@
+---
+spring:
+  profiles: local
+eureka:
+  client:
+    #enabled: false
+    register-with-eureka: false
+    fetchRegistry: false
